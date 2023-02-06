@@ -1,27 +1,32 @@
-/* .active {
-    background-color: #189ab4;
-} */
+.active {
+    background-color: aqua;
+}
 
 body {
     color: black;
-    min-height: 100vh;
     background-color: #7fffd4;
 }
+
+main{
+    min-height: 70vh;
+}
+
 
 header,
 footer{
     background-color: white;
+    
 
 }
 
 #grid {
     width: 100%;
-    border: solid black;
+   
     flex-wrap: wrap;
 }
 
 .grid-element {
-    border: 1px solid black;
+    border: solid thin black;
     width: 10%;
     display: flex;
     align-items: center;
